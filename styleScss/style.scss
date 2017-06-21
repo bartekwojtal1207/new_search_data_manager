@@ -1,0 +1,46 @@
+body{
+  font-size: 1em;
+  font-family:  'Open Sans';
+};
+header{
+  .header_title{
+    text-align: center;
+    box-shadow: -2px 18px 41px -10px #d7f5ff;
+    padding: 2em;
+    margin: 2em;
+    h1{
+      color: #003399;
+      font-weight: bold;
+    }
+  }
+
+};
+section{
+  .background_image{
+    background-image: url('../img/foto_1.jpg');
+    height: 43em;
+    // background-repeat-x: no-repeat;
+    // background-position-x: 15em;
+    display: flex;
+    justify-content: center;
+    &:hover{
+      // opacity: .8;
+    }
+    &:hover .main_form input{
+      background-color: #ffffcc;
+
+      }
+    .main_form{
+      margin: auto;
+      text-align: center;
+      padding-top: 30em;
+      padding-left: 6em;
+        input{
+           width: 20em;
+          // height: 3em;
+          color: orange;
+          font-weight: bold;
+        }
+      }
+  }
+};

@@ -1,0 +1,29 @@
+body {
+  font-size: 1em;
+  font-family: 'Open Sans'; }
+
+header .header_title {
+  text-align: center;
+  box-shadow: -2px 18px 41px -10px #d7f5ff;
+  padding: 2em;
+  margin: 2em; }
+  header .header_title h1 {
+    color: #003399;
+    font-weight: bold; }
+
+section .background_image {
+  background-image: url("../img/foto_1.jpg");
+  height: 43em;
+  display: flex;
+  justify-content: center; }
+  section .background_image:hover .main_form input {
+    background-color: #ffffcc; }
+  section .background_image .main_form {
+    margin: auto;
+    text-align: center;
+    padding-top: 30em;
+    padding-left: 6em; }
+    section .background_image .main_form input {
+      width: 20em;
+      color: orange;
+      font-weight: bold; }
